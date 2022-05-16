@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 body {
     margin: 0;
     background-color: white;
@@ -199,7 +203,7 @@ button {
     }
 
     .div1 {
-        margin-left: 70px;
+        margin-left: 60px;
 
     }
 
@@ -207,10 +211,14 @@ button {
         margin-left: -20px;
     }
 
-    
+    input {
+        width: 90%;
+    }
 
     .box {
         margin: 20px;
     }
+
+  
    
   }
